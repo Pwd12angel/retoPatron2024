@@ -1,0 +1,68 @@
+#root {
+  /* max-width: 1280px; */
+  /* margin: 0 auto; */
+
+}
+
+.navPublicidad{
+  background-image: url('src/assets/image_Nav/mazatlanNav.jpg');
+  background-position: center;
+  background-size: cover;
+  
+  
+}
+.navSombra{
+  background-color: rgba(0, 0, 0, 0.173);
+height: auto;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.navLogos{
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
+  height: auto;
+  padding-top: 10px;
+}
+
+.navImg1{
+  width: 80px;
+  height: 80px;
+  background-image: url('src/assets/image_Nav/logoSetylsa.png');
+  background-position: center;
+  background-size: cover;
+}
+.navImg2{
+  width: 80px;
+  height: 80px;
+  background-image: url('src/assets/image_Nav/logoGuardianes.png');
+  background-position: center;
+  background-size: cover;
+
+}
+.navImg3{
+  width: 80px;
+  height: 80px;
+  background-image: url('src/assets/image_Nav/logoSeguridadVial.png');
+  background-position: center;
+  background-size: cover;
+}
+.navImg4{
+  width: 110px;
+  height: 80px;
+  background-image: url('src/assets/image_Nav/logoLala.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.navTitulos{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+ width: 80%;
+}
+
