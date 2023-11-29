@@ -7,7 +7,9 @@ function Seccion1() {
   return (
     <>
       <div className='navPublicidad' >
+        <div className='navSombra2'>
 
+        </div>
         <div className=' navSombra'>
           <BarraNav></BarraNav>
           <div className="navLogos">
@@ -23,10 +25,7 @@ function Seccion1() {
             <div className='navImg4'>
 
             </div>
-            {/* <img src="src\assets\image_Nav\logoSetylsa.png" alt="" /> */}
-            {/* <img src="src\assets\image_Nav\logoGuardianes.png" alt="" />
-          <img src="src\assets\image_Nav\logoSeguridadVial.png" alt="" />
-          <img src="src\assets\image_Nav\logoLala.png" alt="" /> */}
+
           </div>
           <div className="navTitulos">
             <div>

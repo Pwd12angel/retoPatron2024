@@ -1,0 +1,23 @@
+.InfoContenedorGeneral{
+    width: 100%;
+    height: auto;
+    
+}
+.InfoTexto{
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+    padding: 20px;
+    text-align: justify;
+    border: solid 2px #5f4c4c4c;
+  
+}
+.InfoTexto h2{
+   text-align: center;
+    color: #104474dc
+}
+
+.InfoTexto p,h2,li{
+    color: black;
+   
+}

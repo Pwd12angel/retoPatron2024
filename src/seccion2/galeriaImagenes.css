@@ -1,0 +1,49 @@
+.GalContenedorGeneral{
+    width: 100%;
+ 
+    height: auto;
+    padding: 20px 0;
+}
+
+.GalContenedor{
+    max-width: 1200px;
+    margin: 0 auto;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* imagenes */
+.GalImg1{
+    width: 20%;
+    height: 150px;
+    background-image: url('src/assets/image_Galeria/galeriaimg4.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+}
+.GalImg2{
+    width: 20%;
+    height: 150px;
+    background-image: url('src/assets/image_Galeria/galeriaimg3.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+}
+.GalImg3{
+    width: 20%;
+    height:150px;
+    background-image: url('src/assets/image_Galeria/galeriaimg2.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+}
+.GalImg4{
+    width: 20%;
+    height: 150px;
+    background-image: url('src/assets/image_Galeria/galeriaimg1.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+}
