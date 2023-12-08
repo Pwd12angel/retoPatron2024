@@ -3,7 +3,7 @@ import axios from "axios";
 
 // dominio base al que simpre va a consultar
 const intance = axios.create({
-  baseURL: "http://localhost:3000/api",
+  baseURL: "http://18.225.55.108/api",
   withCredentials: true,
 });
 
