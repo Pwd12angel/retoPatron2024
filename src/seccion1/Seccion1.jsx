@@ -1,7 +1,8 @@
 
 import './Seccion1.css'
 import BarraNav from './barraNavegacion/barraNav'
-function Seccion1() {
+const Seccion1 = () => {
+
 
 
   return (

@@ -1,17 +1,48 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-
-
+import { AuthProvide } from './context/AuthContext'
+import { Suspense, lazy } from 'react'
 import './index.css'
-import Seccion1 from './seccion1/Seccion1'
-import GaleriaImagenes from './seccion2/galeriaImagenes'
-import Info from './seccion3/info'
+import { BrowserRouter, createBrowserRouter, Route, RouterProvider, Routes } from 'react-router-dom';
+import Inicio from './inicio';
+
+
+import Consulta from './pages/cuestionarios/cuestionarioM';
+import RutaProtegida from './pages/rutaProtegida';
+import Seccion1 from './seccion1/Seccion1';
+import VideoM from '../src/paginaVideo/mobileye';
+import VideoC from './paginaVideo/cipia';
+import Resultado from './pages/resultado/Resultados';
+import CuestionarioM from './pages/cuestionarios/cuestionarioM';
+import CuestionarioC from './pages/cuestionarios/cuestionarioC';
+
+
+const ResultadosSus = lazy(() => import("./pages/resultado/Resultados"));
+
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Seccion1></Seccion1>
-    <GaleriaImagenes></GaleriaImagenes>
-    <Info></Info>
+    <Suspense fallback={<h1>Estoy cargando</h1>}>
+      <AuthProvide>
+        <BrowserRouter>
+          <Seccion1 />
+          <Routes>
+            <Route path='/' element={<Inicio />} />
 
+            <Route element={<RutaProtegida />}>
+              <Route path="/resultados" element={<ResultadosSus />} />
+              <Route path="/consulta" element={<Consulta />} />
+              <Route path="/videoM" element={<VideoM />} />
+              <Route path="/videoC" element={<VideoC />} />
+              <Route path="/cuestionarioM" element={<CuestionarioM />} />
+              <Route path="/cuestionarioC" element={<CuestionarioC />} />
+
+            </Route>
+
+          </Routes>
+        </BrowserRouter>
+      </AuthProvide>
+    </Suspense>
   </React.StrictMode>,
 )

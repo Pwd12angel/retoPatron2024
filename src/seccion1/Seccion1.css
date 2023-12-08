@@ -34,6 +34,7 @@
   width: 100%;
   height: auto;
   padding-top: 10px;
+  align-items: center;
 }
 
 .navImg1{
@@ -70,6 +71,42 @@
   display: flex;
   justify-content:space-between;
   align-items: center;
-  width: 100%;
+ margin-left: 10px;
+ width:100%;
 }
 
+
+@media screen and (max-width:638px) {
+  .navTitulos{
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .navLogos{
+    
+  }
+}
+
+
+@media screen and (max-width:407px) {
+
+  .navImg1{
+    width: 20%; 
+    height: 25px;
+   
+  }
+  .navImg2{
+    width: 20%; 
+    height: 25px;
+ 
+  }
+  .navImg3{
+    width: 20%; 
+     height: 25px;
+  
+  }
+  .navImg4{
+    width: 20%; 
+    height: 50px;
+  }
+}

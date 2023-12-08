@@ -1,0 +1,120 @@
+.Pre2Contenedor{
+    color: black;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px 20px 0px 20px;
+}
+.Pre2PreguntaSub{
+   
+    display: flex;
+    justify-content: space-around;
+}
+.Pre2Verifica{
+    display: flex;
+    justify-content:start;
+    gap: 10px;
+    align-items: center;
+}
+.Pre2Contenedor1{
+    width: 100%;
+}
+.Pre2Verifica h2{
+   font-weight: normal;
+}
+.Pre2Respuestas{
+    width: 70%;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Pre2ContenedorPreguntas{
+    display: flex;
+    justify-content: space-between;
+}
+.Pre2ButtonRespuesta{
+    font-size: 18px;
+    background-color: rgb(18, 83, 129);
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    width: 100%;
+    cursor:pointer;
+   
+}
+.Pre2Pregunta{
+    width: 100%;
+   border-top: 1px solid rgb(14, 77, 113);
+    
+}
+
+.Pre2ButtonRespuesta:hover{
+
+    background-color: rgba(0, 26, 45, 0.62);
+    border: 2px solid rgb(22, 158, 179)
+
+   
+}
+.Pre2Contedor{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.PreContenedorImg{
+    width: 25%;
+}
+
+/* letrero de calificacion */
+.Per2Calificacion{
+  
+    background-color: rgb(21, 81, 105);padding: 20px;
+  
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.Pre2Titulo{
+    color: white;
+}
+.Pre2ContenedorInterno{
+    background-color: rgba(51, 119, 153, 0.755);
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+}
+.Per2Calificacion h2,h3{
+font-weight: normal;
+color: white;
+}
+
+.Per2Calificacion button{
+    background-color: rgb(70, 117, 154);
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid 1px white;
+    
+    }
+
+    .Per2Calificacion button:hover{
+        background-color: rgb(111, 132, 148);
+        
+        }
+.Pre2Reprobado{
+    color: green;
+}
+.Pre2Reprobado{
+    color: rgba(212, 4, 4, 0.826);
+    font-size: 20px;
+    font-weight: 600;
+}
+@media screen and (max-width:532px) {
+    .Pre2Respuestas{
+        width: 100%;
+    }
+}

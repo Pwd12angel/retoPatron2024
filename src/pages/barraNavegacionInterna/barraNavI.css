@@ -1,0 +1,36 @@
+
+.navSIGeneral{
+    background-color: #37586b89;
+    display: flex;
+    justify-content:space-between;
+  width: 100%;
+}
+
+.navSIContenedorDiv img{
+    width: 90%;
+    height: 100px;
+}
+.navSILista{
+    display: flex;
+    align-items: center;
+    padding-right: 40px;
+}
+.navSILista li{
+   cursor: pointer;
+  list-style: none;
+  margin: 10px; 
+  color: white;
+
+  display: flex;
+  align-items: center;
+  gap: 4px;
+ 
+}
+
+.navSILista li:hover{
+   border-bottom: 2px solid white;
+   transition-duration: all 0.5s;
+ }
+ .navSIContenedorDiv{
+    padding: 15px;
+ }

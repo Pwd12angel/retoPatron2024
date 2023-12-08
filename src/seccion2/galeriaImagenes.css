@@ -1,14 +1,14 @@
 .GalContenedorGeneral{
-    width: 100%;
- 
     height: auto;
     padding: 20px 0;
+   
 }
 
 .GalContenedor{
     max-width: 1200px;
     margin: 0 auto;
     height: auto;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -47,3 +47,57 @@
     background-position: center;
     border-radius: 15px;
 }
+
+@media screen and (min-width: 425px) and (max-width:  852px) {
+    .GalContenedor{
+      justify-content: space-around;
+    }
+    .GalImg1{
+        width: 23%;
+     
+    }
+
+    .GalImg2{
+        width:23%;
+     
+    }
+
+    .GalImg3{
+        width: 23%;
+     
+    }
+    .GalImg4{
+        width: 23%;
+     
+    }
+
+
+  }
+  
+  @media screen and (max-width: 425px){
+    .GalContenedor{
+        flex-direction: column;
+      justify-content: space-around;
+      gap: 4px;
+    }
+    .GalImg1{
+        width: 90%;
+     
+    }
+
+    .GalImg2{
+        width: 90%;
+     
+    }
+
+    .GalImg3{
+        width: 90%;
+     
+    }
+    .GalImg4{
+        width: 90%;
+     
+    }
+
+
+  }

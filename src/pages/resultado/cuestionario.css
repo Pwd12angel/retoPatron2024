@@ -1,0 +1,101 @@
+.CuesTitulo{
+   padding: 20px;
+    text-align: center;
+    
+}
+
+.CuesTituloInterno {
+    margin-top: 0px;
+    padding-top: 20px;
+}
+.CuesContenedor{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    gap: 10px;
+    max-width: 1200px;
+ 
+    margin: 0 auto;
+    
+}
+
+/* intentos */
+.CuestContenedorGeneral{
+   width: 100%;
+   margin-bottom: 20px;
+  
+}
+.CuesIntentos{
+    display: flex;
+    gap: 10px;
+}
+.CuesContenedorIntentos{
+text-align: start;
+max-width: 1200px;
+margin: 0 auto;
+padding: 10px;
+color: rgb(0, 0, 0);
+border-bottom: 1px solid black;
+background-color: rgba(244, 244, 244, 0.826);
+border-radius: 10px;
+
+box-shadow: -1px 9px 11px -4px rgba(0,0,0,0.42);
+-webkit-box-shadow: -1px 9px 11px -4px rgba(0,0,0,0.42);
+-moz-box-shadow: -1px 9px 11px -4px rgba(0,0,0,0.42);
+}
+
+.TituloResultados h1 {
+    font-weight: 630;
+}
+.CuesContenedorIntentos h4{
+   font-weight: normal;
+   margin: 3px;
+    
+    }
+
+.CuesContenedorIntentos h2{
+    color: rgb(9, 139, 168);
+    font-weight: 500;
+ }
+
+ .CuesContenedorIntentos p{
+    margin: 2px;
+ }
+.CuesIntentoM{
+    background-color: rgb(14, 56, 100);
+    padding: 15px;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+}
+.CuesIntentoC{
+    background-color: rgb(14, 56, 100);
+    padding: 15px;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+}
+.TituloResultados{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@media screen and (max-width:747px) {
+    .CuesContenedor{
+        display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       gap: 20px;
+    }
+
+    .CalContenedor{
+        width: 90%;
+    }
+}
+@media screen and (max-width:447px) {
+    
+    .CalContenedor{
+        width: 100%;
+    }
+}

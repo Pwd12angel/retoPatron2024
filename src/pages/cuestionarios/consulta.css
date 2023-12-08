@@ -1,0 +1,149 @@
+.PreContenedor{
+    color: black;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px 20px 0px 20px;
+  
+}
+.PrePreguntaSub{
+   
+    
+}
+.PreVerifica{
+    display: flex;
+    justify-content:start;
+    gap: 10px;
+}
+.PreVerifica h2{
+    font-weight: normal;
+ }
+.PreContenedor1{
+    width: 100%;
+}
+
+.PreRespuestas{
+    width: 70%;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.PreContenedorPreguntas{
+    display: flex;
+    justify-content: space-between;
+}
+.PreButtonRespuesta{
+    font-size: 18px;
+    background-color: rgb(18, 83, 129);
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    width: 100%;
+    cursor:pointer;
+   
+}
+.PreButtonRespuesta:hover{
+
+    background-color: rgba(0, 26, 45, 0.62);
+    border: 2px solid rgb(22, 158, 179)
+
+   
+}
+.PrePregunta{
+    width: 100%;
+   border-top: 1px solid rgb(14, 77, 113);
+ 
+    
+}
+
+.PreContenedorRespuestas{
+    display: flex;
+    width: 100%;
+    gap: 50px;
+}
+.PreContedor{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.PreAlerta{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    gap:5px;
+}
+/* letrero de calificacion */
+.PerCalificacion{
+  
+    background-color: rgb(21, 81, 105);padding: 20px;
+   
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.PerCalificacion h2,h3{
+font-weight: normal;
+color: white;
+}
+
+.PerCalificacion button{
+    background-color: rgb(70, 117, 154);
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    
+    }
+
+.PerCalificacion button:hover{
+     background-color: rgb(111, 132, 148);
+        
+}
+.PreContenedorInterno{
+    background-color: rgba(51, 119, 153, 0.755);
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+}
+.PreImg{
+    width: 100%;
+}
+.PreTitulo{
+    color: white;
+}
+.PreReprobado{
+    color: green;
+}
+.PreReprobado{
+    color: rgba(212, 4, 4, 0.826);
+    font-size: 20px;
+    font-weight: 600;
+}
+.PreContenedorAlerta{
+    width: 20%;
+   display: flex;
+   justify-content: end;
+}
+.PreContenedorPreguntaCuestionario{
+    width: 80%;
+}
+
+@media screen and (max-width:532px) {
+    .PreContenedorRespuestas{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+    .PreRespuestas{
+        width: 100%;
+    }
+    .PreContenedorImg{
+        width: 100%;
+    }
+}
