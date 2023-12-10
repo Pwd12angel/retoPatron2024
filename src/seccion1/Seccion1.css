@@ -5,7 +5,7 @@
 }
 
 .navPublicidad{
-  background-image: url('src/assets/image_Nav/mazatlanNav.jpg');
+  background-image: url('https://humanopuntocero.s3.amazonaws.com/retoPatron2024/mazatlanNav.jpg');
   background-position: center;
   background-size: cover;
 }
@@ -40,14 +40,14 @@
 .navImg1{
   width: 80px;
   height: 80px;
-  background-image: url('src/assets/image_Nav/logoSetylsa.png');
+  background-image: url('https://humanopuntocero.s3.amazonaws.com/retoPatron2024/logoSetylsa.png');
   background-position: center;
   background-size: cover;
 }
 .navImg2{
   width: 80px;
   height: 80px;
-  background-image: url('src/assets/image_Nav/logoGuardianes.png');
+  background-image: url('https://humanopuntocero.s3.amazonaws.com/retoPatron2024/logoGuardianes.png');
   background-position: center;
   background-size: cover;
 
@@ -55,14 +55,14 @@
 .navImg3{
   width: 80px;
   height: 80px;
-  background-image: url('src/assets/image_Nav/logoSeguridadVial.png');
+  background-image: url('https://humanopuntocero.s3.amazonaws.com/retoPatron2024/logoSeguridadVial.png');
   background-position: center;
   background-size: cover;
 }
 .navImg4{
   width: 110px;
   height: 80px;
-  background-image: url('src/assets/image_Nav/logoLala.png');
+  background-image: url('https://humanopuntocero.s3.amazonaws.com/retoPatron2024/logoLala.png');
   background-position: center;
   background-size: cover;
 }

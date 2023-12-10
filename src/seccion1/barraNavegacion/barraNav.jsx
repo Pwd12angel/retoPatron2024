@@ -10,7 +10,7 @@ const BarraNav = () => {
         <>
             <div className="navGeneral">
                 <div className="navContenedorDiv">
-                    <img src="public\images\logoPatron.png" alt="Logo patron" />
+                    <img src="https://humanopuntocero.s3.amazonaws.com/retoPatron2024/logoPatron.png" alt="Logo patron" />
                 </div>
                 {isAutenticado ? (
                     <h3> Bienvenido {user.nombre}</h3>
