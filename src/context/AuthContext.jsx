@@ -127,7 +127,6 @@ export const AuthProvide = ({ children }) => {
 
         try {
             const existeC = await registroCipia();
-            console.log(existeC.data);
 
             if (existeC.data === "No encontrado") {
 
