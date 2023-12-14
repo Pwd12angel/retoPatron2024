@@ -117,7 +117,7 @@ const CuestionarioC = () => {
                 timer: 1900
             }).then(() => {
                 actualizarCali(dataCal);
-                navigate('/resultados')
+                navigate('/resultados');
             })
 
 

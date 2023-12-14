@@ -17,7 +17,7 @@ import CuestionarioM from './pages/cuestionarios/cuestionarioM';
 import CuestionarioC from './pages/cuestionarios/cuestionarioC';
 
 
-const ResultadosSus = lazy(() => import("./pages/resultado/Resultados"));
+
 
 
 
@@ -31,7 +31,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
             <Route path='/' element={<Inicio />} />
 
             <Route element={<RutaProtegida />}>
-              <Route path="/resultados" element={<ResultadosSus />} />
+              <Route path="/resultados" element={<Resultado />} />
               <Route path="/consulta" element={<Consulta />} />
               <Route path="/videoM" element={<VideoM />} />
               <Route path="/videoC" element={<VideoC />} />
