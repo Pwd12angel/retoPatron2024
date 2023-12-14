@@ -3,7 +3,7 @@ import axios from "axios";
 
 // dominio base al que simpre va a consultar
 const intance = axios.create({
-  baseURL: "https://35.168.86.243/api",
+  baseURL: "http://setylsaback.guiatusemociones.com/api",
   withCredentials: true,
 });
 
