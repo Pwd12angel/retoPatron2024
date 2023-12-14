@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client'
 import { AuthProvide } from './context/AuthContext'
 import { Suspense, lazy } from 'react'
 import './index.css'
-import { BrowserRouter, createBrowserRouter, Route, RouterProvider, Routes } from 'react-router-dom';
+import { BrowserRouter, createBrowserRouter, Routes, Route, RouterProvider, HashRouter } from 'react-router-dom';
 import Inicio from './inicio';
 
 
@@ -25,12 +25,13 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Suspense fallback={<h1>Estoy cargando</h1>}>
       <AuthProvide>
-        <BrowserRouter>
+        <HashRouter>
+
           <Seccion1 />
           <Routes>
-            <Route path='/' element={<Inicio />} />
 
-            <Route element={<RutaProtegida />}>
+            <Route path='/' element={<Inicio />} />
+            <Route Route element={<RutaProtegida />}>
               <Route path="/resultados" element={<Resultado />} />
               <Route path="/consulta" element={<Consulta />} />
               <Route path="/videoM" element={<VideoM />} />
@@ -40,9 +41,14 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 
             </Route>
 
+
+
+
+
           </Routes>
-        </BrowserRouter>
+
+        </HashRouter>
       </AuthProvide>
     </Suspense>
-  </React.StrictMode>,
+  </React.StrictMode >,
 )
