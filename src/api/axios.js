@@ -3,12 +3,8 @@ import axios from "axios";
 
 // dominio base al que simpre va a consultar
 const intance = axios.create({
-  baseURL: "https://35.168.86.243/api",
+  baseURL: "https://setylsaback.guiatusemociones.com/api",
   withCredentials: true,
-  headers: {
-    "Content-Type": "application/json",
-    "Access-Control-Allow-Origin": "https://setylsa.guiatusemociones.com", // Reemplaza con tu dominio React
-  },
 });
 
 export default intance;
