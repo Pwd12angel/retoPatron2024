@@ -1,10 +1,14 @@
 // configuraremos axios
 import axios from "axios";
-axios.defaults.withCredentials = true;
-axios.defaults.headers.crossDomain = true;
+
 // dominio base al que simpre va a consultar
 const intance = axios.create({
-  baseURL: "https://setylsaback.guiatusemociones.com/api",
+  baseURL: "http://35.168.86.243/api",
+  withCredentials: true,
+  headers: {
+    "Content-Type": "application/json",
+    "Access-Control-Allow-Origin": "https://setylsa.guiatusemociones.com", // Reemplaza con tu dominio React
+  },
 });
 
 export default intance;
