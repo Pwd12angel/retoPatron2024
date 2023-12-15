@@ -41,7 +41,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
               <Route path="/videoC" element={<VideoC />} />
               <Route path="/cuestionarioM" element={<CuestionarioM />} />
               <Route path="/cuestionarioC" element={<CuestionarioC />} />
-              <Route path='/' element={<Resultado />} />
+
 
             </Route>
 
