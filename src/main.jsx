@@ -24,7 +24,10 @@ import CuestionarioC from './pages/cuestionarios/cuestionarioC';
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Suspense fallback={<h1>Estoy cargando</h1>}>
+
       <AuthProvide>
+
+
         <Router>
 
           <Seccion1 />
@@ -38,12 +41,14 @@ ReactDOM.createRoot(document.getElementById('root')).render(
               <Route path="/videoC" element={<VideoC />} />
               <Route path="/cuestionarioM" element={<CuestionarioM />} />
               <Route path="/cuestionarioC" element={<CuestionarioC />} />
+              <Route path='/' element={<Resultado />} />
 
             </Route>
-            <Route path='/' element={<Inicio />} />
-          </Routes>
 
+          </Routes>
+          <Inicio />
         </Router>
+
       </AuthProvide>
     </Suspense>
   </React.StrictMode >,
