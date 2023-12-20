@@ -44,7 +44,7 @@ const Registro = () => {
                     timer: 1900
                 })
                 signup(values);
-                if (isAutenticado) navigate('/resultados')
+                if (isAutenticado) navigate('resultados')
             } else {
 
             }

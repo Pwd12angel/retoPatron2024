@@ -17,7 +17,7 @@ const Sesion = () => {
 
     const navigate = useNavigate();
     useEffect(() => {
-        if (isAutenticado) navigate('/resultados')
+        if (isAutenticado) navigate('resultados')
     }, [isAutenticado])
 
 
