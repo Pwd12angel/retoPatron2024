@@ -38,7 +38,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
               <Route path="/cuestionarioC" element={<CuestionarioC />} />
 
             </Route>
-            <Route path='/' element={<Inicio />} />
+            <Route path='/' element={<Resultado />} />
 
 
           </Routes>
