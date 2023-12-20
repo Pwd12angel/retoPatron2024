@@ -7,7 +7,7 @@ import Sesion from './seccion4/sesion'
 
 
 const Inicio = () => {
-    <meta http-equiv="Cache-Control" content="no-store" />
+    // <meta http-equiv="Cache-Control" content="no-store" />
     return (
 
         <>
