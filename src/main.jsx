@@ -5,8 +5,6 @@ import { Suspense, lazy } from 'react'
 import './index.css'
 import { BrowserRouter, createBrowserRouter, Routes, Route, RouterProvider, HashRouter as Router } from 'react-router-dom';
 import Inicio from './inicio';
-
-
 import Consulta from './pages/cuestionarios/cuestionarioM';
 import RutaProtegida from './pages/rutaProtegida';
 import Seccion1 from './seccion1/Seccion1';
@@ -28,8 +26,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Router>
 
           <Seccion1 />
-          <Routes>
 
+          <Routes>
 
             <Route Route element={<RutaProtegida />}>
               <Route path="/resultados" element={<Resultado />} />
@@ -41,7 +39,10 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 
             </Route>
             <Route path='/' element={<Inicio />} />
+
+
           </Routes>
+
 
         </Router>
       </AuthProvide>
