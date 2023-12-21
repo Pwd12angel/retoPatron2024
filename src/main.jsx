@@ -30,12 +30,12 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           <Routes>
 
             <Route Route element={<RutaProtegida />}>
-              <Route path="resultados" element={<Resultado />} />
-              <Route path="consulta" element={<Consulta />} />
-              <Route path="videoM" element={<VideoM />} />
-              <Route path="videoC" element={<VideoC />} />
-              <Route path="cuestionarioM" element={<CuestionarioM />} />
-              <Route path="cuestionarioC" element={<CuestionarioC />} />
+              <Route path="/resultados" element={<Resultado />} />
+              <Route path="/consulta" element={<Consulta />} />
+              <Route path="/videoM" element={<VideoM />} />
+              <Route path="/videoC" element={<VideoC />} />
+              <Route path="/cuestionarioM" element={<CuestionarioM />} />
+              <Route path="/cuestionarioC" element={<CuestionarioC />} />
 
             </Route>
             <Route path='/' element={<Inicio />} />

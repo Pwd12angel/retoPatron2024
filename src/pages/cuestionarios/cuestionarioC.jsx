@@ -139,7 +139,7 @@ const CuestionarioC = () => {
                 timer: 1900
             }).then(() => {
                 caliG(data);
-                navigate('resultados')
+                navigate('/resultados')
             })
 
 
