@@ -9,15 +9,15 @@ const Resultado = () => {
 
 
     const { consultaCipia, caliFiCipia, consultaMobileye, caliFi } = useAuth();
-    const datosMobileye = [];
-    const datosCipia = [];
-
-    useEffect(() => {
-        consultaCipia();
-        consultaMobileye();
-    }, [])
 
 
+    // useEffect(() => {
+    //     consultaCipia();
+    //     consultaMobileye();
+    // }, [])
+
+    consultaCipia();
+    consultaMobileye();
 
     console.log(caliFi.data);
 
