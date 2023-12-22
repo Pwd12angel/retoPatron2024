@@ -116,7 +116,7 @@ export const AuthProvide = ({ children }) => {
                 setExisteCalificacionUsuario(true);
 
             }
-
+            console.log("Respuesta DEL")
         } catch (error) {
             console.error(error);
         }
