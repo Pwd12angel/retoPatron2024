@@ -48,6 +48,7 @@ export const AuthProvide = ({ children }) => {
         } catch (error) {
             console.log(error.response);
             setErrors(error.response.data)
+
         }
     };
 

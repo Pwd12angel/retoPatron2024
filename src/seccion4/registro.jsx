@@ -39,28 +39,34 @@ const Registro = () => {
 
 
                 signup(values);
-                //verificamos si el objeto error trae un error
-                if (isAutenticado) {
-                    Swal.fire({
-                        title: "Registro Exitoso",
-                        text: "Gracias por participar",
-                        icon: "success",
-                        showConfirmButton: false,
-                        timer: 1900
-                    })
-                    if (isAutenticado) navigate('/resultados')
 
 
-                } else {
+                //esperamos la respuesta del servidor
+                setTimeout(() => {
+                    //verificamos si el objeto error trae un error
+                    if (isAutenticado) {
+                        Swal.fire({
+                            title: "Registro Exitoso",
+                            text: "Gracias por participar",
+                            icon: "success",
+                            showConfirmButton: false,
+                            timer: 1900
+                        })
+                        if (isAutenticado) navigate('/resultados')
 
-                    Swal.fire({
-                        title: "Error",
-                        text: "Por favaor verifica tus datos",
-                        icon: "error",
-                        showConfirmButton: false,
-                        timer: 1900
-                    })
-                }
+
+                    } else {
+
+                        Swal.fire({
+                            title: "Error",
+                            text: "Por favaor verifica tus datos",
+                            icon: "error",
+                            showConfirmButton: false,
+                            timer: 1900
+                        })
+                    }
+                }, 3000);
+
 
             } else {
 
