@@ -116,8 +116,9 @@ const CuestionarioC = () => {
                 button: false,
                 timer: 1900
             }).then(() => {
-                actualizarCali(dataCal);
-                navigate('/resultados');
+                actualizarCali(dataCal).then(() => {
+                    navigate('/resultados');
+                })
             })
 
 
@@ -138,8 +139,9 @@ const CuestionarioC = () => {
                 button: false,
                 timer: 1900
             }).then(() => {
-                caliG(data);
-                navigate('/resultados')
+                caliG(data).then(() => {
+                    navigate('/resultados')
+                })
             })
 
 
