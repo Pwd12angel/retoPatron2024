@@ -20,7 +20,7 @@ const Registro = () => {
 
     const onSubmit = handleSubmit(async (values) => {
 
-        console.log(values);
+
         Swal.fire({
             title: "Confirma tus datos de registro",
             icon: "warning",
@@ -36,15 +36,26 @@ const Registro = () => {
 
             if (resultado.isConfirmed) {
 
-                Swal.fire({
-                    title: "Registro Exitoso",
-                    text: "Gracias por participar",
-                    icon: "success",
-                    showConfirmButton: false,
-                    timer: 1900
-                })
-                signup(values);
-                if (isAutenticado) navigate('/resultados')
+                if (errors) {
+                    Swal.fire({
+                        title: "Error de Registro",
+                        text: "Algo Salio mal verfica los datos",
+                        icon: "error",
+                        showConfirmButton: false,
+                        timer: 1900
+                    })
+
+                } else {
+                    signup(values);
+                    Swal.fire({
+                        title: "Registro Exitoso",
+                        text: "Gracias por participar",
+                        icon: "success",
+                        showConfirmButton: false,
+                        timer: 1900
+                    })
+                    if (isAutenticado) navigate('/resultados')
+                }
             } else {
 
             }
