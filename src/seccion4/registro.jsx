@@ -40,7 +40,7 @@ const Registro = () => {
 
                 signup(values);
                 //verificamos si el objeto error trae un error
-                if (Object.keys(errors).length > 0) {
+                if (isAutenticado) {
                     Swal.fire({
                         title: "Error",
                         text: "Por favaor verifica tus datos",
