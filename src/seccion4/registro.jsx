@@ -44,7 +44,18 @@ const Registro = () => {
                 //esperamos la respuesta del servidor
                 setTimeout(() => {
                     //verificamos si el objeto error trae un error
-                    if (isAutenticado) {
+                    if (Object.keys(errors).length > 0) {
+                        Swal.fire({
+                            title: "Error",
+                            text: "Por favaor verifica tus datos",
+                            icon: "error",
+                            showConfirmButton: false,
+                            timer: 1900
+                        })
+
+
+
+                    } else {
                         Swal.fire({
                             title: "Registro Exitoso",
                             text: "Gracias por participar",
@@ -54,16 +65,6 @@ const Registro = () => {
                         })
                         if (isAutenticado) navigate('/resultados')
 
-
-                    } else {
-
-                        Swal.fire({
-                            title: "Error",
-                            text: "Por favaor verifica tus datos",
-                            icon: "error",
-                            showConfirmButton: false,
-                            timer: 1900
-                        })
                     }
                 }, 3000);
 
