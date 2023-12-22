@@ -39,7 +39,7 @@ const Registro = () => {
 
                 signup(values);
                 if (isAutenticado) {
-                    navigate('/resultados')
+
                     Swal.fire({
                         title: "Registro Exitoso",
                         text: "Gracias por participar",
@@ -47,6 +47,10 @@ const Registro = () => {
                         showConfirmButton: false,
                         timer: 1900
                     })
+                    setTimeout(() => {
+                        navigate('/resultados')
+                    }, 2000);
+
                 }
 
 
