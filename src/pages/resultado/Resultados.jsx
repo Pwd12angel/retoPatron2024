@@ -11,13 +11,13 @@ const Resultado = () => {
     const { consultaCipia, caliFiCipia, consultaMobileye, caliFi } = useAuth();
 
 
-    // useEffect(() => {
-    //     consultaCipia();
-    //     consultaMobileye();
-    // }, [])
+    useEffect(() => {
+        consultaCipia();
+        consultaMobileye();
+        console.log("Se renderizo");
+    }, [])
 
-    consultaCipia();
-    consultaMobileye();
+
 
     console.log(caliFi.data);
 
