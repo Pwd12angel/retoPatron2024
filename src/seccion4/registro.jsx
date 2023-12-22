@@ -46,10 +46,9 @@ const Registro = () => {
                         icon: "success",
                         showConfirmButton: false,
                         timer: 1900
-                    })
-                    setTimeout(() => {
+                    }).then(() => {
                         navigate('/resultados')
-                    }, 2000);
+                    })
 
                 }
 
