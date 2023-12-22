@@ -44,7 +44,7 @@ const Registro = () => {
                 //esperamos la respuesta del servidor
                 setTimeout(() => {
                     //verificamos si el objeto error trae un error
-                    if (Object.keys(errors).length > 0) {
+                    if (errors.length > 0) {
                         Swal.fire({
                             title: "Error",
                             text: "Por favaor verifica tus datos",
@@ -66,7 +66,7 @@ const Registro = () => {
                         if (isAutenticado) navigate('/resultados')
 
                     }
-                }, 3000);
+                }, 1000);
 
 
             } else {
