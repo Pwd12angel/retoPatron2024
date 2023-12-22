@@ -19,7 +19,7 @@ const Resultado = () => {
 
 
 
-    console.log(caliFi.data);
+    console.log("Data de la calificacion " + caliFi.data);
 
     return (
         <>
