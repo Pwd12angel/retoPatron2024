@@ -37,20 +37,21 @@ const Registro = () => {
             if (resultado.isConfirmed) {
 
 
-                signup(values);
-                if (isAutenticado) {
+                signup(values).then(() => {
+                    if (isAutenticado) {
 
-                    Swal.fire({
-                        title: "Registro Exitoso",
-                        text: "Gracias por participar",
-                        icon: "success",
-                        showConfirmButton: false,
-                        timer: 1900
-                    }).then(() => {
-                        navigate('/resultados')
-                    })
+                        Swal.fire({
+                            title: "Registro Exitoso",
+                            text: "Gracias por participar",
+                            icon: "success",
+                            showConfirmButton: false,
+                            timer: 1900
+                        }).then(() => {
+                            navigate('/resultados')
+                        })
 
-                }
+                    }
+                })
 
 
             } else {
@@ -66,7 +67,7 @@ const Registro = () => {
         <>
             <div className="ReContendor">
                 <strong></strong>
-                <h3>REGISTRATE Y PARTICIPA</h3>
+                <h3>REGÍSTRATE Y PARTICIPA</h3>
                 {
                     errorNumeroCliente.map((error, i) => (
                         <div key={error} className='ReAlertaError'>{error}</div>
@@ -74,9 +75,20 @@ const Registro = () => {
                 }
                 <form className='ReFormulario' onSubmit={onSubmit} >
                     <div className='RePrimerInput'>
+                        <div className='ReSegundoInput'>
+                            <label htmlFor="">Número de empleado</label>
+                            <input placeholder='Número Empleado' type="text" {...register("Nempleado", {
+                                required: true
+                            })} />
+                            {
+                                errors.Nempleado && (
+                                    <p className='ReError'>Número de empleado requerido</p>
+                                )
+                            }
 
+                        </div>
                         <div className='ReContenedorNombre'>
-                            <label htmlFor="">Nombre</label>
+                            <label htmlFor="">Nombre completo</label>
 
                             <input placeholder='Nombre' type="text" {...register("nombre", {
                                 required: true
@@ -119,18 +131,7 @@ const Registro = () => {
                         </div>
                     </div>
 
-                    <div className='ReSegundoInput'>
-                        <label htmlFor="">Número de empleado</label>
-                        <input placeholder='Número Empleado' type="text" {...register("Nempleado", {
-                            required: true
-                        })} />
-                        {
-                            errors.Nempleado && (
-                                <p className='ReError'>Número de empleado requerido</p>
-                            )
-                        }
 
-                    </div>
                     <button className='ReButton' type='submit' >Registrar</button>
 
                 </form>

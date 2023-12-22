@@ -39,10 +39,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 
             </Route>
 
-
-
           </Routes>
-
 
         </Router>
       </AuthProvide>
