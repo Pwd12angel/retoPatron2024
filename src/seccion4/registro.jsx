@@ -39,14 +39,26 @@ const Registro = () => {
 
 
                 signup(values);
-                if (isAutenticado) navigate('/resultados')
-                Swal.fire({
-                    title: "Registro Exitoso",
-                    text: "Gracias por participar",
-                    icon: "success",
-                    showConfirmButton: false,
-                    timer: 1900
-                })
+                //verificamos si el objeto error trae un error
+                if (Object.keys(errors).length > 0) {
+                    Swal.fire({
+                        title: "Error",
+                        text: "Por favaor verifica tus datos",
+                        icon: "error",
+                        showConfirmButton: false,
+                        timer: 1900
+                    })
+                } else {
+
+                    Swal.fire({
+                        title: "Registro Exitoso",
+                        text: "Gracias por participar",
+                        icon: "success",
+                        showConfirmButton: false,
+                        timer: 1900
+                    })
+                    if (isAutenticado) navigate('/resultados')
+                }
 
             } else {
 
