@@ -18,7 +18,7 @@ const Info = () => {
                     <div className='InfoImportante' >
                         <h2>MUY IMPORTANTE</h2>
                         <p>Tienes hasta el 31 de diciembre del 2023 para registrarte y ser parte del reto <strong>PATRÓN DEL CAMINO</strong></p>
-                        <p>El Reto comienza el 1 de enero y termina el 31 de marzo del 2024 <strong>(3 meses)</strong></p>
+                        <p>El reto comienza el 1 de enero y termina el 31 de marzo del 2024 <strong>(3 meses)</strong></p>
                     </div>
                 </div>s
             </div>

@@ -7,6 +7,7 @@
     align-items: center;
     justify-content: center;
     padding: 40px 40px 40px 40px;
+    border-radius: 10px;
 }
 .ReContendor h3{
     text-align: center;
@@ -23,6 +24,9 @@
 .RePrimerInput{
    
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
 
  
 }

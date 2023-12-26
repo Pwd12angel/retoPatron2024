@@ -30,7 +30,7 @@ const Seccion1 = () => {
           </div>
           <div className="navTitulos">
             <div>
-              <h1>RETO PATRON DEL CAMINO 2024</h1>
+              <h1>RETO PATRÓN DEL CAMINO 2024</h1>
               <h3>PARTICIPA Y GANA UN VIAJE A MAZATLAN</h3>
             </div>
             <div className="navTituloAv">
