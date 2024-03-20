@@ -10,10 +10,7 @@ const RutaProtegida = () => {
     if (loading) return <h1>Loading</h1>
     // si no existe lo manda al inicio
     if (!loading && !isAutenticado) return <Navigate to='/' replace />
-
     // si si existe continua con el componente 
-
     return <Outlet />
 }
-
 export default RutaProtegida
