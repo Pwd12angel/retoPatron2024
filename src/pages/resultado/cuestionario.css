@@ -1,3 +1,27 @@
+@font-face {
+    font-family: 'Branding-Bold';
+    src: url('src/fonts/BrandingSF-Bold.ttf') ;
+  }
+  @font-face {
+    font-family: 'Branding-Light';
+    src: url('src/fonts/BrandingSF-Light.ttf') ;
+  }
+  @font-face {
+    font-family: 'Branding-Medium';
+    src: url('src/fonts/BrandingSF-Medium.ttf') ;
+  }
+  @font-face {
+    font-family: 'Branding-SemiBold';
+    src: url('src/fonts/BrandingSF-SemiBold.ttf') ;
+  }
+  @font-face {
+    font-family: 'Branding-SemiLight';
+    src: url('src/fonts/BrandingSF-SemiLight.ttf') ;
+  }
+  @font-face {
+    font-family: 'Branding-Thin';
+    src: url('src/fonts/BrandingSF-Thin.ttf') ;
+  }
 .CuesTitulo{
    padding: 20px;
     text-align: center;
@@ -46,11 +70,12 @@ box-shadow: -1px 9px 11px -4px rgba(0,0,0,0.42);
 
 .TituloResultados h1 {
     font-weight: 630;
+    font-family: 'Branding-SemiBold';
 }
 .CuesContenedorIntentos h4{
    font-weight: normal;
    margin: 3px;
-    
+   font-family: 'Branding-Medium';
     }
 
 .CuesContenedorIntentos h2{
@@ -60,6 +85,7 @@ box-shadow: -1px 9px 11px -4px rgba(0,0,0,0.42);
 
  .CuesContenedorIntentos p{
     margin: 2px;
+    font-family: 'Branding-SemiLight';
  }
 .CuesIntentoM{
     background-color: rgb(14, 56, 100);

@@ -1,3 +1,28 @@
+@font-face {
+    font-family: 'Branding-Bold';
+    src: url('src/fonts/BrandingSF-Bold.ttf') ;
+  }
+  @font-face {
+    font-family: 'Branding-Light';
+    src: url('src/fonts/BrandingSF-Light.ttf') ;
+  }
+  @font-face {
+    font-family: 'Branding-Medium';
+    src: url('src/fonts/BrandingSF-Medium.ttf') ;
+  }
+  @font-face {
+    font-family: 'Branding-SemiBold';
+    src: url('src/fonts/BrandingSF-SemiBold.ttf') ;
+  }
+  @font-face {
+    font-family: 'Branding-SemiLight';
+    src: url('src/fonts/BrandingSF-SemiLight.ttf') ;
+  }
+  @font-face {
+    font-family: 'Branding-Thin';
+    src: url('src/fonts/BrandingSF-Thin.ttf') ;
+  }
+
 .CalContenedor{
     background-color: #083650c7;
     width: 45%;
@@ -11,13 +36,18 @@
 }
 .CalContenedor h2{
     color: white;
+    font-family: 'Branding-SemiBold';
 }
-
+.CalContenedor h3{
+   
+    font-family: 'Branding-SemiBold';
+}
 .CalContenerdorNumero{
     border: 2px solid rgba(189, 189, 189, 0.544);
     width: 50%;
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.313);
+    font-family: 'Branding-Medium';
 }
 
 .CalContenedorBoton{
@@ -29,12 +59,12 @@
     font-weight:500;
     text-decoration: none;
     font-size: 15px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-radius: 10px;
     padding: 10px;
     cursor: pointer;
     background-color: rgb(41, 140, 115);
     border: solid rgba(30, 77, 90, 0.834);
+    font-family: 'Branding-SemiLight';
     
 
 }

@@ -1,10 +1,29 @@
-#root {
-  /* max-width: 1280px; */
-  /* margin: 0 auto; */
-
+@font-face {
+  font-family: 'Branding-Bold';
+  src: url('src/fonts/BrandingSF-Bold.ttf') ;
 }
-
+@font-face {
+  font-family: 'Branding-Light';
+  src: url('src/fonts/BrandingSF-Light.ttf') ;
+}
+@font-face {
+  font-family: 'Branding-Medium';
+  src: url('src/fonts/BrandingSF-Medium.ttf') ;
+}
+@font-face {
+  font-family: 'Branding-SemiBold';
+  src: url('src/fonts/BrandingSF-SemiBold.ttf') ;
+}
+@font-face {
+  font-family: 'Branding-SemiLight';
+  src: url('src/fonts/BrandingSF-SemiLight.ttf') ;
+}
+@font-face {
+  font-family: 'Branding-Thin';
+  src: url('src/fonts/BrandingSF-Thin.ttf') ;
+}
 .navPublicidad{
+  height: auto;
   background-image: url('https://humanopuntocero.s3.amazonaws.com/retoPatron2024/mazatlanNav.jpg');
   background-position: center;
   background-size: cover;
@@ -71,23 +90,29 @@
   display: flex;
   justify-content:space-between;
   align-items: center;
- width:100%;
+  letter-spacing: 0.1em;
+  font-family: 'Branding-Bold';
+  width:100%;
+}
+.navTitulos h3{
+  font-family: 'Branding-SemiLight';
+  font-size: 20px;
 }
 
-
-@media screen and (max-width:638px) {
+@media screen and (max-width:637px) {
   .navTitulos{
     flex-direction: column;
     text-align: center;
+   
+  }
+  .navSombra2{
+    height: 495px;
   }
 
-  .navLogos{
-    
-  }
 }
 
 
-@media screen and (max-width:407px) {
+@media screen and (max-width:450px) {
 
   .navImg1{
     width: 20%; 
@@ -107,5 +132,8 @@
   .navImg4{
     width: 20%; 
     height: 50px;
+  }
+  .navSombra2{
+    height: 500px;
   }
 }

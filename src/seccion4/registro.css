@@ -1,3 +1,27 @@
+@font-face {
+    font-family: 'Branding-Bold';
+    src: url('src/fonts/BrandingSF-Bold.ttf') ;
+  }
+  @font-face {
+    font-family: 'Branding-Light';
+    src: url('src/fonts/BrandingSF-Light.ttf') ;
+  }
+  @font-face {
+    font-family: 'Branding-Medium';
+    src: url('src/fonts/BrandingSF-Medium.ttf') ;
+  }
+  @font-face {
+    font-family: 'Branding-SemiBold';
+    src: url('src/fonts/BrandingSF-SemiBold.ttf') ;
+  }
+  @font-face {
+    font-family: 'Branding-SemiLight';
+    src: url('src/fonts/BrandingSF-SemiLight.ttf') ;
+  }
+  @font-face {
+    font-family: 'Branding-Thin';
+    src: url('src/fonts/BrandingSF-Thin.ttf') ;
+  }
 .ReContendor{
     width: 40%;
     background-color: #102C4E;
@@ -11,6 +35,7 @@
 }
 .ReContendor h3{
     text-align: center;
+    font-family: 'Branding-SemiBold';
 }
 .ReFormulario{
     width: 70%;
@@ -38,7 +63,13 @@
     color: black;
     border-radius: 10px;
     padding: 5px 10px 5px 10px;
+    font-family: 'Branding-SemiLight';
+}
     
+.RePrimerInput label {
+
+  
+    font-family: 'Branding-SemiLight';
 }
 .ReContenedorNombre{
     display: flex;
@@ -67,14 +98,14 @@
     margin-top: 10px;
     padding-left: 10px;
     
-
+    font-family: 'Branding-SemiLight';
    
 }
 .ReAlertaError{
     background-color: rgba(240, 6, 6, 0.665);
     padding: 10px;
     margin-bottom: 10px;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: 'Branding-SemiLight';
 }
 .ReButton{
     width: auto;
@@ -83,6 +114,13 @@
     border-radius: 5px;
     padding: 10px;
     letter-spacing: 1.2px;
+    font-family: 'Branding-SemiLight';
+    cursor: pointer;
+}
+.ReButton:hover{
+   
+    background-color: #7b7b7bc3;
+    
 }
 .ReContenedorSelect{
     display: flex;

@@ -201,7 +201,7 @@ const CuestionarioC = () => {
 
                 </div>
                 <div className="Pre2Contedor">
-                    <span>Pregunta {preguntaActual + 1} de </span>26
+                    <span>Pregunta {preguntaActual + 1} de 26 </span>
                 </div>
 
                 {

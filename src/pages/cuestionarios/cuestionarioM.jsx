@@ -215,7 +215,7 @@ const CuestionarioM = () => {
 
                 </div>
                 <div className="PreContedor">
-                    <span>Pregunta {preguntaActual + 1} de </span>24
+                    <span>Pregunta {preguntaActual + 1} de 24</span>
                 </div>
 
 

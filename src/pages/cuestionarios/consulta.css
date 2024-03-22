@@ -1,3 +1,28 @@
+@font-face {
+    font-family: 'Branding-Bold';
+    src: url('src/fonts/BrandingSF-Bold.ttf') ;
+  }
+  @font-face {
+    font-family: 'Branding-Light';
+    src: url('src/fonts/BrandingSF-Light.ttf') ;
+  }
+  @font-face {
+    font-family: 'Branding-Medium';
+    src: url('src/fonts/BrandingSF-Medium.ttf') ;
+  }
+  @font-face {
+    font-family: 'Branding-SemiBold';
+    src: url('src/fonts/BrandingSF-SemiBold.ttf') ;
+  }
+  @font-face {
+    font-family: 'Branding-SemiLight';
+    src: url('src/fonts/BrandingSF-SemiLight.ttf') ;
+  }
+  @font-face {
+    font-family: 'Branding-Thin';
+    src: url('src/fonts/BrandingSF-Thin.ttf') ;
+  }
+
 .PreContenedor{
     color: black;
     max-width: 1200px;
@@ -5,9 +30,9 @@
     padding: 0px 20px 0px 20px;
   
 }
-.PrePreguntaSub{
+.PreContenedor h1{
    
-    
+  font-family: 'Branding-SemiBold';
 }
 .PreVerifica{
     display: flex;
@@ -28,6 +53,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+   
 }
 
 .PreContenedorPreguntas{
@@ -42,6 +68,7 @@
     padding: 15px;
     width: 100%;
     cursor:pointer;
+    font-family:'Branding-Medium' ;
    
 }
 .PreButtonRespuesta:hover{
@@ -68,7 +95,9 @@
     font-size: 20px;
     margin-top: 20px;
 }
-
+.PreContedor span{
+    font-family: 'Branding-Medium';
+}
 .PreAlerta{
     display: flex;
     flex-direction: row-reverse;
@@ -132,7 +161,10 @@ color: white;
 .PreContenedorPreguntaCuestionario{
     width: 80%;
 }
-
+.PreContenedorInterno h3{
+   
+    font-family: 'Branding-Medium';
+  }
 @media screen and (max-width:532px) {
     .PreContenedorRespuestas{
         flex-direction: column;

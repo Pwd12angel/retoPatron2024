@@ -7,11 +7,13 @@ const Seccion1 = () => {
 
   return (
     <>
+
       <div className='navPublicidad' >
         <div className='navSombra2'>
 
         </div>
         <div className=' navSombra'>
+
           <BarraNav></BarraNav>
           <div className="navLogos">
             <div className='navImg1'>

@@ -1,3 +1,23 @@
+@font-face {
+    font-family: 'Branding-Light';
+    src: url('src/fonts/BrandingSF-Light.ttf') ;
+  }
+  @font-face {
+    font-family: 'Branding-Medium';
+    src: url('src/fonts/BrandingSF-Medium.ttf') ;
+  }
+  @font-face {
+    font-family: 'Branding-SemiBold';
+    src: url('src/fonts/BrandingSF-SemiBold.ttf') ;
+  }
+  @font-face {
+    font-family: 'Branding-SemiLight';
+    src: url('src/fonts/BrandingSF-SemiLight.ttf') ;
+  }
+  @font-face {
+    font-family: 'Branding-Thin';
+    src: url('src/fonts/BrandingSF-Thin.ttf') ;
+  }
 .SeContendor{
     width: 40%;
     background-color:  #102C4E;
@@ -11,6 +31,7 @@
 }
 .SeContendor h3{
    text-align: center;
+   font-family: 'Branding-SemiBold';
 }
 .SeFormulario{
     display: flex;
@@ -20,7 +41,9 @@
     gap: 20px;
     width: 100%;
 }
-
+.SeFormulario label {
+  font-family: 'Branding-SemiLight';
+}
 .SeFormulario input{
     height: 20px;
     background-color: white;
@@ -28,6 +51,7 @@
     padding: 5px;
     border-radius: 10px;
     width: 50%;
+    font-family: 'Branding-SemiLight';
 }
 .SeError{
     color: rgb(238, 238, 238);
@@ -37,6 +61,8 @@
     margin-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
+    font-family: 'Branding-SemiLight';
+   
 }
 .SeButton{
     width: auto;
@@ -45,12 +71,20 @@
     border-radius: 5px;
     padding: 10px;
     letter-spacing: 1.2px;
+    cursor: pointer;
+    font-family: 'Branding-SemiLight';
+}
+.SeButton:hover{
+   
+  background-color: #7b7b7bc3;
+  
 }
 .SeAlertaError{   
     background-color: rgba(240, 6, 6, 0.665);
+    font-family: 'Branding-SemiLight';
+   
     padding: 10px;
     margin-bottom: 10px;
-    font-family:Arial, Helvetica, sans-serif;
 }
 
 @media screen and (max-width: 652px) {

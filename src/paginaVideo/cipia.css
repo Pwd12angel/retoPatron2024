@@ -1,3 +1,28 @@
+@font-face {
+    font-family: 'Branding-Bold';
+    src: url('src/fonts/BrandingSF-Bold.ttf') ;
+  }
+  @font-face {
+    font-family: 'Branding-Light';
+    src: url('src/fonts/BrandingSF-Light.ttf') ;
+  }
+  @font-face {
+    font-family: 'Branding-Medium';
+    src: url('src/fonts/BrandingSF-Medium.ttf') ;
+  }
+  @font-face {
+    font-family: 'Branding-SemiBold';
+    src: url('src/fonts/BrandingSF-SemiBold.ttf') ;
+  }
+  @font-face {
+    font-family: 'Branding-SemiLight';
+    src: url('src/fonts/BrandingSF-SemiLight.ttf') ;
+  }
+  @font-face {
+    font-family: 'Branding-Thin';
+    src: url('src/fonts/BrandingSF-Thin.ttf') ;
+  }
+
 .ViContenedor{
     max-width: 1200px;
     margin: 0 auto;
@@ -6,6 +31,7 @@
 .ViContenedor h1{
     text-align: center;
    font-weight: normal;
+   font-family:'Branding-Medium' ;
 }
 .ViContenedorVideo{
     margin: 20px;
@@ -22,12 +48,13 @@
     color: white;
     text-decoration: none;
     font-size: 20px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-radius: 10px;
     padding: 10px;
     cursor: pointer;
     background-color: rgb(41, 140, 115);
     border: solid rgba(30, 77, 90, 0.834);
+    font-family: 'Branding-SemiLight';
+    
 }
 
 .ViContenedorButton a:hover{

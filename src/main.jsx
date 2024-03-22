@@ -29,6 +29,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 
           <Routes>
             <Route path='/' element={<Inicio />} />
+
             <Route Route element={<RutaProtegida />}>
               <Route path="/resultados" element={<Resultado />} />
               <Route path="/consulta" element={<Consulta />} />

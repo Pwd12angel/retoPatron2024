@@ -24,7 +24,7 @@ const Calificacion = ({ titulo, numero }) => {
 
                             :
                             (numero > 70) ?
-                                <svg width="67" height="67" fill="none" stroke="#42b710" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <svg width="67" height="67" fill="none" stroke="#42b710" strokeLinecap="round" stroke-linejoin="round" stroke-width="1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M12 22a9.97 9.97 0 0 0 7.071-2.929A9.97 9.97 0 0 0 22 12a9.969 9.969 0 0 0-2.929-7.071A9.969 9.969 0 0 0 12 2a9.969 9.969 0 0 0-7.071 2.929A9.969 9.969 0 0 0 2 12a9.969 9.969 0 0 0 2.929 7.071A9.969 9.969 0 0 0 12 22Z"></path>
                                     <path d="m8 12 3 3 6-6"></path>
                                 </svg>
