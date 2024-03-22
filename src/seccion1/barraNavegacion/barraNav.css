@@ -5,23 +5,23 @@
 }
 @font-face {
   font-family: 'Branding-Light';
-  src: url('/fonts/BrandingSF-Light.ttf' )format('woff') ;
+  src: url('/public/fonts/BrandingSF-Light.ttf' )format('woff') ;
 }
 @font-face {
   font-family: 'Branding-Medium';
-  src: url('/fonts/BrandingSF-Medium.ttf')format('woff') ;
+  src: url('/public/fonts/BrandingSF-Medium.ttf')format('woff') ;
 }
 @font-face {
   font-family: 'Branding-SemiBold';
-  src: url('/fonts/BrandingSF-SemiBold.ttf')format('woff') ;
+  src: url('/public/fonts/BrandingSF-SemiBold.ttf')format('woff') ;
 }
 @font-face {
   font-family: 'Branding-SemiLight';
-  src: url('/fonts/BrandingSF-SemiLight.ttf')format('woff') ;
+  src: url('/public/fonts/BrandingSF-SemiLight.ttf')format('woff') ;
 }
 @font-face {
   font-family: 'Branding-Thin';
-  src: url('/fonts/BrandingSF-Thin.ttf') format('woff');
+  src: url('/public/fonts/BrandingSF-Thin.ttf') format('woff');
 }
 .navGeneral{
     background-color: #37586b89;
