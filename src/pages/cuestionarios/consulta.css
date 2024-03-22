@@ -1,26 +1,26 @@
 @font-face {
     font-family: 'Branding-Bold';
-    src: url('src/assets/fonts/BrandingSF-Bold.ttf') ;
+    src: url('/src/assets/fonts/BrandingSF-Bold.ttf') ;
   }
   @font-face {
     font-family: 'Branding-Light';
-    src: url('src/assets/fonts/BrandingSF-Light.ttf') ;
+    src: url('/src/assets/fonts/BrandingSF-Light.ttf') ;
   }
   @font-face {
     font-family: 'Branding-Medium';
-    src: url('src/assets/fonts/BrandingSF-Medium.ttf') ;
+    src: url('/src/assets/fonts/BrandingSF-Medium.ttf') ;
   }
   @font-face {
     font-family: 'Branding-SemiBold';
-    src: url('src/assets/fonts/BrandingSF-SemiBold.ttf') ;
+    src: url('/src/assets/fonts/BrandingSF-SemiBold.ttf') ;
   }
   @font-face {
     font-family: 'Branding-SemiLight';
-    src: url('src/assets/fonts/BrandingSF-SemiLight.ttf') ;
+    src: url('/src/assets/fonts/BrandingSF-SemiLight.ttf') ;
   }
   @font-face {
     font-family: 'Branding-Thin';
-    src: url('src/assets/fonts/BrandingSF-Thin.ttf') ;
+    src: url('/src/assets/fonts/BrandingSF-Thin.ttf') ;
   }
 
 .PreContenedor{
