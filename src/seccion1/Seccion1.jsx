@@ -16,9 +16,9 @@ const Seccion1 = () => {
 
           <BarraNav></BarraNav>
           <div className="navLogos">
-            <div className='navImg1'>
+            {/* <div className='navImg1'>
 
-            </div>
+            </div> */}
             <div className='navImg2'>
 
             </div>

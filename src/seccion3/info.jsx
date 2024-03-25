@@ -17,7 +17,7 @@ const Info = () => {
                     <li>Si tus dispositivos presentan alguna falla informar a tu jefe de seguridad vial para revisión.</li>
                     <div className='InfoImportante' >
                         <h2>MUY IMPORTANTE</h2>
-                        <p>Tienes hasta el 30 de abril del 2023 para registrarte y ser parte del reto <strong>PATRÓN DEL CAMINO</strong></p>
+                        <p>Tienes hasta el 30 de abril del 2024 para registrarte y ser parte del reto <strong>PATRÓN DEL CAMINO</strong></p>
                         <p>El reto comienza el 1 de mayo y termina el  31 de julio del 2024 <strong>(3 meses)</strong></p>
                     </div>
                 </div>s
